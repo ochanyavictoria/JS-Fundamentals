@@ -1,10 +1,4 @@
-const firstArgument = process.argv[2];
+const firstArg = process.argv[2];
+const secondArg = process.argv[3];
 
-// Use a conditional to check if an argument exists.
-if (firstArgument === undefined) {
-  // This block runs if no argument was provided.
-  console.log("No argument");
-} else {
-  // This block runs if an argument was provided.
-  console.log(firstArgument);
-}
+console.log(firstArg + ' is ' + secondArg);
